@@ -1,3 +1,10 @@
+:root{
+  --color-main-btn: #4d5ae5;
+	--color-portfolio-btn: #404bbf;
+	--color-hero-fotter: #2e2f42;
+}
 body{
-  font-family: 'Roboto','Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
