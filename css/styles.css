@@ -16,7 +16,7 @@ ul{
   list-style-type: none;
 }
 .header-logo {
-font-family: 'Raleway' sans-serif;
+font-family:"Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -37,6 +37,16 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
+.header-menu-link link{
+  color: #2E2F42;
+  text-decoration:none;
+}
+.header-menu-link:hover{
+   color: #404bbf ;
+}
+.header-menu-link:focus{
+   color: #404bbf ;
+}
 .contact{
   font-style: normal;
 }
@@ -45,7 +55,15 @@ color: #2E2F42;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
-color: #434455;
+}
+.contact-menu-link{
+  color: #434455;
+}
+.contact-menu-link:hover{
+  color: #404bbf;
+}
+.contact-menu-link:focus{
+  color: #404bbf;  
 }
 .hero {
   background-color: var(--color-hero-fotter);
