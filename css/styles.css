@@ -2,9 +2,130 @@
   --color-main-btn: #4d5ae5;
 	--color-portfolio-btn: #404bbf;
 	--color-hero-fotter: #2e2f42;
+  --color-white:#FFFFFF;
 }
 body{
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+.header-logo {
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42;
+}
+.header-logo span{
+  color: #4D5AE5;
+}
+.header-menu-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.contact-menu-link {
+  font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.hero {
+  background-color: var(--color-hero-fotter);
+}
+.hero-titel {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+color: var(--color-white);
+}
+.hero-btn {
+  font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.50;
+color: var(--color-white);
+background:var(--color-main-btn);
+}
+
+.advantages-item {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.advantages-subtitel {
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.we-doing-titel {
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+
+.our-team-titel {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+.our-team-subtitel {
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.20px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.our-team-item-text {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.footer {
+  background: var(--color-hero-fotter);
+}
+.footer-logo {
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
+}
+.footer-logo span{
+  color: #4D5AE5;
+}
+.footer-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.50;
+  letter-spacing: 0.02em;
+  color: #F4F4FD;
 }
