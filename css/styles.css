@@ -139,13 +139,15 @@ line-height: 1.2px;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
+.our-team-item{
+  background-color: var(--color-white);
+}
 .our-team-item-text {
   font-weight: 400;
 font-size: 16px;
-line-height: 1.50;
+line-height: 1.2;
 letter-spacing: 0.02em;
 color: #434455;
-background-color: var(--color-white);
 }
 .footer {
   background: var(--color-hero-fotter);
