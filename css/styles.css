@@ -172,7 +172,9 @@ color: #4D5AE5;
   letter-spacing: 0.02em;
   color: #F4F4FD;
 }
-
+.row-btn-list {
+  text-decoration: none;
+}
 .list {
 }
 .btn {
@@ -184,7 +186,6 @@ letter-spacing: 0.04em;
 color: #4d5ae5;
 background-color: #f4f4fd;
 cursor: pointer;
-text-decoration: none;
 }
 .btn:hover{
   color: var(--color-white);
